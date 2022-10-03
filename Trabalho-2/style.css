@@ -1,0 +1,97 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  body {
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+    margin: 0 auto;
+    border: 10px solid  rgb(37, 37, 39);
+   
+  }
+  h1 {
+    margin: 0;
+    color: #9f0000;
+    text-shadow: 3px 3px 1px black;
+    font-size: 100px;
+    background-color: rgb(37, 37, 39);
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(37, 37, 39);
+  }
+  #menu-1{
+    background-color: rgb(37, 37, 39);
+  }
+  
+  #menu-1 ul {
+    max-width: 9000px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  #menu-1 ul li {
+    display: inline;
+  }
+  
+  #menu-1 ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  #menu-1 ul li a:hover {
+    background-color: rgb(24, 139, 233);
+  }
+  
+  #menu-1 ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+  }
+  
+  .img {
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+  .T-1{
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+  #T-2{
+    position: absolute;
+    left: 50%;
+    width: 200px;
+    height: 200PX
+    
+  }
+  .T-3 {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border: 6px inset rgb(255, 255, 255);
+    background-color: #F2F2F2;
+  }
+  .T-4{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 6px inset rgb(255, 0, 0);
+    background-color: #F2F2F2;
+    width: 400px;
+  }
+  .T-5{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 6px inset rgb(0, 0, 0);
+    background-color: #F2F2F2;
+    width: 200px;
+  }
+  #Rodape{
+    color: rgb(0, 0, 0);
+  }
